@@ -1,0 +1,13 @@
+{
+  "name": "visionforge-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "VisionForge AI - Precision AI Image Generation Platform",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install": "cd server && npm install",
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm start"
+  }
+}
